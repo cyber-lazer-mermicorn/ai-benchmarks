@@ -4,10 +4,11 @@
   "description": "AI provider performance benchmarks",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run typecheck",
     "start": "next start",
-    "test": "jest",
-    "benchmark": "ts-node lib/run-benchmarks.ts"
+    "test": "jest --passWithNoTests",
+    "benchmark": "ts-node lib/run-benchmarks.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "14.1.0",

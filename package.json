@@ -17,7 +17,7 @@
     "openai": "^4.28.0",
     "groq-sdk": "^0.5.0",
     "@anthropic-ai/sdk": "^0.24.0",
-    "zod": "^3.22.4"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
